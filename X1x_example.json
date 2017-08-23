@@ -1,0 +1,62 @@
+{
+    "enabled": true,
+    "coin": ".json",
+    "coinName": "",
+
+    "address": "",
+
+    
+
+    "ports": {
+        "34": {
+            "diff": 0.004,
+            "varDiff": {
+                "minDiff": 0.0008,
+                "maxDiff": 8,
+                "targetTime": 15,
+                "retargetTime": 15,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "198.204.238.114",
+            "port": 194,
+            "user": "bp--cd",
+            "password": ""
+        }
+    ],
+
+   
+    "mposMode": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "bp--db",
+        "password": "",
+        "database": "bP_",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+
+    "paymentProcessing": {
+        "enabled": false,
+        "paymentInterval": 20,
+        "minimumPayment": 70,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 19332,
+            "user": "testuser",
+            "password": "testpass"
+        }
+    },
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    }
+}

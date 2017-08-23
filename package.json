@@ -1,0 +1,51 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.6",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/ganjitoka/nomp-stratum-bp",
+    "bugs": {
+        "url": "https://github.com/ganjitoka/nomp-stratum-bp/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ganjitoka/nomp-stratum-bp.git"
+    },
+    "dependencies": {
+        "multi-hashing": "git://github.com/ganjitoka/nomp-multi-hashing-bp.git",
+"dateformat": "1.0.12",
+        "node-json-minify": "*",
+        "redis": "0.12.1",
+        "mysql": "*",
+        "async": "1.5.2",
+        "express": "*",
+        "body-parser": "*",
+        "compression": "*",
+        "dot": "*",
+        "colors": "*",
+        "node-watch": "*",
+        "request": "*",
+        "nonce": "*",
+        "bignum": "0.12.5",
+        "extend": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}

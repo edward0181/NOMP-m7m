@@ -1,0 +1,18 @@
+{
+    "name": "Magicoin",
+    "symbol": "XMG",
+    "algorithm": "m7m",
+"paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 0.2,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8232,
+            "user": "Edward0181",
+            "password": "Brammetje1!"
+        }
+    }
+
+//blocknotify="node /root/nomp/scripts/blockNotify.js 127.0.0.1:8117 test magicoin %s"
+}
