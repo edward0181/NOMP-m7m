@@ -31,9 +31,9 @@
 
     "website": {
         "enabled": true,
-        "host": "h2701744.stratoserver.net",
+        "host": "0.0.0.0",
         "port": 85,
-        "stratumHost": "h2701744.stratoserver.net",
+        "stratumHost": "0.0.0.0",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
