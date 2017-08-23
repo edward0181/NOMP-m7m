@@ -9,8 +9,8 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 8232,
-            "user": "Edward0181",
-            "password": "Brammetje1!"
+            "user": "someuser",
+            "password": "somepassw"
         }
     }
 
